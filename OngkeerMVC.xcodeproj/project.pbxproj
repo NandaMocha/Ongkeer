@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CB98A0235AC67E0085875A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB989F235AC67E0085875A /* AppDelegate.swift */; };
+		04CB98A2235AC67E0085875A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A1235AC67E0085875A /* SceneDelegate.swift */; };
+		04CB98A4235AC67E0085875A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A3235AC67E0085875A /* ViewController.swift */; };
+		04CB98A7235AC67E0085875A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB98A5235AC67E0085875A /* Main.storyboard */; };
+		04CB98AA235AC67E0085875A /* OngkeerMVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A8235AC67E0085875A /* OngkeerMVC.xcdatamodeld */; };
+		04CB98AC235AC6800085875A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB98AB235AC6800085875A /* Assets.xcassets */; };
+		04CB98AF235AC6800085875A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB98AD235AC6800085875A /* LaunchScreen.storyboard */; };
+		04CB98BA235AC6800085875A /* OngkeerMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98B9235AC6800085875A /* OngkeerMVCTests.swift */; };
+		04CB98C5235AC6800085875A /* OngkeerMVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98C4235AC6800085875A /* OngkeerMVCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CB98B6235AC6800085875A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CB9894235AC67E0085875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CB989B235AC67E0085875A;
+			remoteInfo = OngkeerMVC;
+		};
+		04CB98C1235AC6800085875A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CB9894235AC67E0085875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CB989B235AC67E0085875A;
+			remoteInfo = OngkeerMVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CB989C235AC67E0085875A /* OngkeerMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OngkeerMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB989F235AC67E0085875A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CB98A1235AC67E0085875A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04CB98A3235AC67E0085875A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CB98A6235AC67E0085875A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CB98A9235AC67E0085875A /* OngkeerMVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OngkeerMVC.xcdatamodel; sourceTree = "<group>"; };
+		04CB98AB235AC6800085875A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CB98AE235AC6800085875A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CB98B0235AC6800085875A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB98B5235AC6800085875A /* OngkeerMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OngkeerMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB98B9235AC6800085875A /* OngkeerMVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngkeerMVCTests.swift; sourceTree = "<group>"; };
+		04CB98BB235AC6800085875A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB98C0235AC6800085875A /* OngkeerMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OngkeerMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB98C4235AC6800085875A /* OngkeerMVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngkeerMVCUITests.swift; sourceTree = "<group>"; };
+		04CB98C6235AC6800085875A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CB9899235AC67E0085875A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB98B2235AC6800085875A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB98BD235AC6800085875A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CB9893235AC67E0085875A = {
+			isa = PBXGroup;
+			children = (
+				04CB989E235AC67E0085875A /* OngkeerMVC */,
+				04CB98B8235AC6800085875A /* OngkeerMVCTests */,
+				04CB98C3235AC6800085875A /* OngkeerMVCUITests */,
+				04CB989D235AC67E0085875A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CB989D235AC67E0085875A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CB989C235AC67E0085875A /* OngkeerMVC.app */,
+				04CB98B5235AC6800085875A /* OngkeerMVCTests.xctest */,
+				04CB98C0235AC6800085875A /* OngkeerMVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CB989E235AC67E0085875A /* OngkeerMVC */ = {
+			isa = PBXGroup;
+			children = (
+				04CB989F235AC67E0085875A /* AppDelegate.swift */,
+				04CB98A1235AC67E0085875A /* SceneDelegate.swift */,
+				04CB98A3235AC67E0085875A /* ViewController.swift */,
+				04CB98A5235AC67E0085875A /* Main.storyboard */,
+				04CB98AB235AC6800085875A /* Assets.xcassets */,
+				04CB98AD235AC6800085875A /* LaunchScreen.storyboard */,
+				04CB98B0235AC6800085875A /* Info.plist */,
+				04CB98A8235AC67E0085875A /* OngkeerMVC.xcdatamodeld */,
+			);
+			path = OngkeerMVC;
+			sourceTree = "<group>";
+		};
+		04CB98B8235AC6800085875A /* OngkeerMVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CB98B9235AC6800085875A /* OngkeerMVCTests.swift */,
+				04CB98BB235AC6800085875A /* Info.plist */,
+			);
+			path = OngkeerMVCTests;
+			sourceTree = "<group>";
+		};
+		04CB98C3235AC6800085875A /* OngkeerMVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CB98C4235AC6800085875A /* OngkeerMVCUITests.swift */,
+				04CB98C6235AC6800085875A /* Info.plist */,
+			);
+			path = OngkeerMVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CB989B235AC67E0085875A /* OngkeerMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB98C9235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVC" */;
+			buildPhases = (
+				04CB9898235AC67E0085875A /* Sources */,
+				04CB9899235AC67E0085875A /* Frameworks */,
+				04CB989A235AC67E0085875A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OngkeerMVC;
+			productName = OngkeerMVC;
+			productReference = 04CB989C235AC67E0085875A /* OngkeerMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CB98B4235AC6800085875A /* OngkeerMVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB98CC235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVCTests" */;
+			buildPhases = (
+				04CB98B1235AC6800085875A /* Sources */,
+				04CB98B2235AC6800085875A /* Frameworks */,
+				04CB98B3235AC6800085875A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CB98B7235AC6800085875A /* PBXTargetDependency */,
+			);
+			name = OngkeerMVCTests;
+			productName = OngkeerMVCTests;
+			productReference = 04CB98B5235AC6800085875A /* OngkeerMVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CB98BF235AC6800085875A /* OngkeerMVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB98CF235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVCUITests" */;
+			buildPhases = (
+				04CB98BC235AC6800085875A /* Sources */,
+				04CB98BD235AC6800085875A /* Frameworks */,
+				04CB98BE235AC6800085875A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CB98C2235AC6800085875A /* PBXTargetDependency */,
+			);
+			name = OngkeerMVCUITests;
+			productName = OngkeerMVCUITests;
+			productReference = 04CB98C0235AC6800085875A /* OngkeerMVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CB9894235AC67E0085875A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Nanda Mochammad";
+				TargetAttributes = {
+					04CB989B235AC67E0085875A = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					04CB98B4235AC6800085875A = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 04CB989B235AC67E0085875A;
+					};
+					04CB98BF235AC6800085875A = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 04CB989B235AC67E0085875A;
+					};
+				};
+			};
+			buildConfigurationList = 04CB9897235AC67E0085875A /* Build configuration list for PBXProject "OngkeerMVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CB9893235AC67E0085875A;
+			productRefGroup = 04CB989D235AC67E0085875A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CB989B235AC67E0085875A /* OngkeerMVC */,
+				04CB98B4235AC6800085875A /* OngkeerMVCTests */,
+				04CB98BF235AC6800085875A /* OngkeerMVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CB989A235AC67E0085875A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB98AF235AC6800085875A /* LaunchScreen.storyboard in Resources */,
+				04CB98AC235AC6800085875A /* Assets.xcassets in Resources */,
+				04CB98A7235AC67E0085875A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB98B3235AC6800085875A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB98BE235AC6800085875A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CB9898235AC67E0085875A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB98AA235AC67E0085875A /* OngkeerMVC.xcdatamodeld in Sources */,
+				04CB98A4235AC67E0085875A /* ViewController.swift in Sources */,
+				04CB98A0235AC67E0085875A /* AppDelegate.swift in Sources */,
+				04CB98A2235AC67E0085875A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB98B1235AC6800085875A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB98BA235AC6800085875A /* OngkeerMVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB98BC235AC6800085875A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB98C5235AC6800085875A /* OngkeerMVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CB98B7235AC6800085875A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CB989B235AC67E0085875A /* OngkeerMVC */;
+			targetProxy = 04CB98B6235AC6800085875A /* PBXContainerItemProxy */;
+		};
+		04CB98C2235AC6800085875A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CB989B235AC67E0085875A /* OngkeerMVC */;
+			targetProxy = 04CB98C1235AC6800085875A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CB98A5235AC67E0085875A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CB98A6235AC67E0085875A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CB98AD235AC6800085875A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CB98AE235AC6800085875A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CB98C7235AC6800085875A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CB98C8235AC6800085875A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CB98CA235AC6800085875A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NAU7R3577;
+				INFOPLIST_FILE = OngkeerMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CB98CB235AC6800085875A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NAU7R3577;
+				INFOPLIST_FILE = OngkeerMVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CB98CD235AC6800085875A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NAU7R3577;
+				INFOPLIST_FILE = OngkeerMVCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OngkeerMVC.app/OngkeerMVC";
+			};
+			name = Debug;
+		};
+		04CB98CE235AC6800085875A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NAU7R3577;
+				INFOPLIST_FILE = OngkeerMVCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OngkeerMVC.app/OngkeerMVC";
+			};
+			name = Release;
+		};
+		04CB98D0235AC6800085875A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NAU7R3577;
+				INFOPLIST_FILE = OngkeerMVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OngkeerMVC;
+			};
+			name = Debug;
+		};
+		04CB98D1235AC6800085875A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NAU7R3577;
+				INFOPLIST_FILE = OngkeerMVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OngkeerMVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CB9897235AC67E0085875A /* Build configuration list for PBXProject "OngkeerMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB98C7235AC6800085875A /* Debug */,
+				04CB98C8235AC6800085875A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CB98C9235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB98CA235AC6800085875A /* Debug */,
+				04CB98CB235AC6800085875A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CB98CC235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB98CD235AC6800085875A /* Debug */,
+				04CB98CE235AC6800085875A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CB98CF235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB98D0235AC6800085875A /* Debug */,
+				04CB98D1235AC6800085875A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04CB98A8235AC67E0085875A /* OngkeerMVC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04CB98A9235AC67E0085875A /* OngkeerMVC.xcdatamodel */,
+			);
+			currentVersion = 04CB98A9235AC67E0085875A /* OngkeerMVC.xcdatamodel */;
+			path = OngkeerMVC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04CB9894235AC67E0085875A /* Project object */;
+}
