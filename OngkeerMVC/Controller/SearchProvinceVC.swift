@@ -136,12 +136,14 @@ extension SearchProvinceVC: UITableViewDataSource{
             self.delegate?.updateLayout(tag: "0",
                                         city: "\(showDataCity[indexPath.row].city_name ?? "")",
                                         province: "\(showDataCity[indexPath.row].province_name ?? "")",
-                                        postalcode: "\(showDataCity[indexPath.row].postal_code ?? "")")
+                                        postalcode: "\(showDataCity[indexPath.row].postal_code ?? "")",
+                                        city_id: "\(showDataCity[indexPath.row].city_id ?? "")")
         }else{
             self.delegate?.updateLayout(tag: "1",
             city: "\(showDataCity[indexPath.row].city_name ?? "")",
             province: "\(showDataCity[indexPath.row].province_name ?? "")",
-            postalcode: "\(showDataCity[indexPath.row].postal_code ?? "")")
+            postalcode: "\(showDataCity[indexPath.row].postal_code ?? "")",
+            city_id: "\(showDataCity[indexPath.row].city_id ?? "")")
         }
         self.dismiss(animated: true) {
            

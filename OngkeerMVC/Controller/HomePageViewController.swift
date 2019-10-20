@@ -141,6 +141,17 @@ class HomePageViewController: UIViewController, UITextFieldDelegate {
             let alert = UIAlertController(title: "Attention", message: "Please Fill the Data", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
             self.present(alert, animated:  true)
+        }else{
+            let weight : Int? = Int(textFieldWeight.text!)! * 1000
+            
+            DataManager.shared.requestCost(origin: choosenOri["city_id"] as! String,
+                                           destination: choosenDest["city_id"] as! String,
+                                           weight: "\(weight ?? 1000)", courier: textFieldDelivery.text!) { (result) in
+                                            
+                                            DispatchQueue.main.async {
+                                                self.textFieldTotal.text = result
+                                            }
+            }
         }
         
     }
@@ -192,18 +203,21 @@ extension HomePageViewController: UpdateLayoutDelegate, UIPickerViewDelegate, UI
         pickerDelivery.isHidden = true
     }
     
-    func updateLayout(tag: String, city: String, province: String, postalcode: String){
+    func updateLayout(tag: String, city: String, province: String, postalcode: String, city_id: String){
         print("Check Delegate")
         if tag == "0"{
             textFieldDest.text = "\(city), \(province)"
             choosenDest["city"] = city
             choosenDest["province"] = province
             choosenDest["postalcolde"] = postalcode
+            choosenDest["city_id"] = city_id
         }else{
             textFieldOri.text = "\(city), \(province)"
             choosenOri["city"] = city
             choosenOri["province"] = province
             choosenOri["postalcolde"] = postalcode
+            choosenOri["city_id"] = city_id
+
         }
     }
 }

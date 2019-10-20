@@ -9,5 +9,5 @@
 import Foundation
 
 protocol UpdateLayoutDelegate: AnyObject {
-    func updateLayout(tag: String, city: String, province: String, postalcode: String)
+    func updateLayout(tag: String, city: String, province: String, postalcode: String, city_id : String)
 }

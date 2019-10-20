@@ -160,7 +160,7 @@ class DataManager{
         }
     }
     
-    func requestCost(origin: String, destination: String, weight: String, courier: String){
+    func requestCost(origin: String, destination: String, weight: String, courier: String, completion: @escaping(String) -> Void){
         print("Request Cost Started . . .")
         let headers = [
             "Content-Type": "application/json",
@@ -184,18 +184,12 @@ class DataManager{
                     print("APIKEY Not Found")
                 }else{
                     for (_, subJson) in JSONResult["rajaongkir"]["results"]{
-                        let dataCity = city.init(city_id: subJson["city_id"].stringValue,
-                                                 province_id: subJson["province_id"].stringValue,
-                                                 province_name: subJson["province"].stringValue,
-                                                 type: subJson["type"].stringValue,
-                                                 city_name: subJson["city_name"].stringValue,
-                                                 postal_code: subJson["postal_code"].stringValue)
-                        self.cityData.append(dataCity)
+                        let total = subJson["costs"][0].stringValue
                         
-                        UserDefaults.standard.set(true, forKey: "loadDataCity")
+                        completion(total)
+                        
 
                     }
-                    self.saveToCoreData(data: "City")
 
                 }
             }else{
