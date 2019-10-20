@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04CB98A0235AC67E0085875A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB989F235AC67E0085875A /* AppDelegate.swift */; };
-		04CB98A2235AC67E0085875A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A1235AC67E0085875A /* SceneDelegate.swift */; };
-		04CB98A4235AC67E0085875A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A3235AC67E0085875A /* ViewController.swift */; };
-		04CB98A7235AC67E0085875A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB98A5235AC67E0085875A /* Main.storyboard */; };
+		04CB98A4235AC67E0085875A /* SearchProvinceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A3235AC67E0085875A /* SearchProvinceVC.swift */; };
 		04CB98AA235AC67E0085875A /* OngkeerMVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98A8235AC67E0085875A /* OngkeerMVC.xcdatamodeld */; };
 		04CB98AC235AC6800085875A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB98AB235AC6800085875A /* Assets.xcassets */; };
 		04CB98AF235AC6800085875A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB98AD235AC6800085875A /* LaunchScreen.storyboard */; };
 		04CB98BA235AC6800085875A /* OngkeerMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98B9235AC6800085875A /* OngkeerMVCTests.swift */; };
 		04CB98C5235AC6800085875A /* OngkeerMVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98C4235AC6800085875A /* OngkeerMVCUITests.swift */; };
+		04CB98D7235AC7A80085875A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98D6235AC7A80085875A /* DataManager.swift */; };
+		04CB98DA235AFBAE0085875A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98D9235AFBAE0085875A /* HomePageViewController.swift */; };
+		04CB98E2235B51BB0085875A /* ProtocolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB98E1235B51BB0085875A /* ProtocolClass.swift */; };
+		4D3FE0AD6585829F2EE95B25 /* Pods_OngkeerMVCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A270C541C18D37BBF074F9EB /* Pods_OngkeerMVCTests.framework */; };
+		B4BBBC2904188F3071420878 /* Pods_OngkeerMVC_OngkeerMVCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8563FEF560EA5F670D61628 /* Pods_OngkeerMVC_OngkeerMVCUITests.framework */; };
+		EDF7F5476D0617D5EDEBF283 /* Pods_OngkeerMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB44437C9BCBBAB0EE0B11E /* Pods_OngkeerMVC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,7 @@
 /* Begin PBXFileReference section */
 		04CB989C235AC67E0085875A /* OngkeerMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OngkeerMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB989F235AC67E0085875A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04CB98A1235AC67E0085875A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04CB98A3235AC67E0085875A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04CB98A6235AC67E0085875A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CB98A3235AC67E0085875A /* SearchProvinceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProvinceVC.swift; sourceTree = "<group>"; };
 		04CB98A9235AC67E0085875A /* OngkeerMVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OngkeerMVC.xcdatamodel; sourceTree = "<group>"; };
 		04CB98AB235AC6800085875A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CB98AE235AC6800085875A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,19 @@
 		04CB98C0235AC6800085875A /* OngkeerMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OngkeerMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB98C4235AC6800085875A /* OngkeerMVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OngkeerMVCUITests.swift; sourceTree = "<group>"; };
 		04CB98C6235AC6800085875A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB98D6235AC7A80085875A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		04CB98D8235AF8C20085875A /* ViewsProgrammatically-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewsProgrammatically-Bridging-Header.h"; sourceTree = "<group>"; };
+		04CB98D9235AFBAE0085875A /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		04CB98E1235B51BB0085875A /* ProtocolClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolClass.swift; sourceTree = "<group>"; };
+		137C455ED5C8057B1E181DE5 /* Pods-OngkeerMVC-OngkeerMVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OngkeerMVC-OngkeerMVCUITests.release.xcconfig"; path = "Target Support Files/Pods-OngkeerMVC-OngkeerMVCUITests/Pods-OngkeerMVC-OngkeerMVCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17190FE015B75C49569D68EA /* Pods-OngkeerMVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OngkeerMVCTests.debug.xcconfig"; path = "Target Support Files/Pods-OngkeerMVCTests/Pods-OngkeerMVCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AB44437C9BCBBAB0EE0B11E /* Pods_OngkeerMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OngkeerMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC11A43FEDD3306E50E376B /* Pods-OngkeerMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OngkeerMVC.release.xcconfig"; path = "Target Support Files/Pods-OngkeerMVC/Pods-OngkeerMVC.release.xcconfig"; sourceTree = "<group>"; };
+		68B04BCAA3A8F8378CF8FC3D /* Pods-OngkeerMVC-OngkeerMVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OngkeerMVC-OngkeerMVCUITests.debug.xcconfig"; path = "Target Support Files/Pods-OngkeerMVC-OngkeerMVCUITests/Pods-OngkeerMVC-OngkeerMVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D6E654D07DEE760D81610C1 /* Pods-OngkeerMVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OngkeerMVCTests.release.xcconfig"; path = "Target Support Files/Pods-OngkeerMVCTests/Pods-OngkeerMVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A94247E83D9DAE4544BA92F /* Pods-OngkeerMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OngkeerMVC.debug.xcconfig"; path = "Target Support Files/Pods-OngkeerMVC/Pods-OngkeerMVC.debug.xcconfig"; sourceTree = "<group>"; };
+		A270C541C18D37BBF074F9EB /* Pods_OngkeerMVCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OngkeerMVCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8563FEF560EA5F670D61628 /* Pods_OngkeerMVC_OngkeerMVCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OngkeerMVC_OngkeerMVCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF7F5476D0617D5EDEBF283 /* Pods_OngkeerMVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3FE0AD6585829F2EE95B25 /* Pods_OngkeerMVCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BBBC2904188F3071420878 /* Pods_OngkeerMVC_OngkeerMVCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				04CB98B8235AC6800085875A /* OngkeerMVCTests */,
 				04CB98C3235AC6800085875A /* OngkeerMVCUITests */,
 				04CB989D235AC67E0085875A /* Products */,
+				E7091D344D8B0E2123DF2135 /* Pods */,
+				8259DC729202BAFF2A597A7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				04CB989F235AC67E0085875A /* AppDelegate.swift */,
-				04CB98A1235AC67E0085875A /* SceneDelegate.swift */,
-				04CB98A3235AC67E0085875A /* ViewController.swift */,
-				04CB98A5235AC67E0085875A /* Main.storyboard */,
-				04CB98AB235AC6800085875A /* Assets.xcassets */,
-				04CB98AD235AC6800085875A /* LaunchScreen.storyboard */,
+				04CB98D4235AC7670085875A /* Model */,
+				04CB98D2235AC75E0085875A /* Controller */,
+				04CB98D5235AC7790085875A /* SupportingFiles */,
 				04CB98B0235AC6800085875A /* Info.plist */,
-				04CB98A8235AC67E0085875A /* OngkeerMVC.xcdatamodeld */,
 			);
 			path = OngkeerMVC;
 			sourceTree = "<group>";
@@ -131,6 +148,58 @@
 			path = OngkeerMVCUITests;
 			sourceTree = "<group>";
 		};
+		04CB98D2235AC75E0085875A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04CB98D9235AFBAE0085875A /* HomePageViewController.swift */,
+				04CB98A3235AC67E0085875A /* SearchProvinceVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04CB98D4235AC7670085875A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CB98D6235AC7A80085875A /* DataManager.swift */,
+				04CB98E1235B51BB0085875A /* ProtocolClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CB98D5235AC7790085875A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				04CB98D8235AF8C20085875A /* ViewsProgrammatically-Bridging-Header.h */,
+				04CB98AD235AC6800085875A /* LaunchScreen.storyboard */,
+				04CB98AB235AC6800085875A /* Assets.xcassets */,
+				04CB98A8235AC67E0085875A /* OngkeerMVC.xcdatamodeld */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8259DC729202BAFF2A597A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB44437C9BCBBAB0EE0B11E /* Pods_OngkeerMVC.framework */,
+				D8563FEF560EA5F670D61628 /* Pods_OngkeerMVC_OngkeerMVCUITests.framework */,
+				A270C541C18D37BBF074F9EB /* Pods_OngkeerMVCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7091D344D8B0E2123DF2135 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A94247E83D9DAE4544BA92F /* Pods-OngkeerMVC.debug.xcconfig */,
+				5AC11A43FEDD3306E50E376B /* Pods-OngkeerMVC.release.xcconfig */,
+				68B04BCAA3A8F8378CF8FC3D /* Pods-OngkeerMVC-OngkeerMVCUITests.debug.xcconfig */,
+				137C455ED5C8057B1E181DE5 /* Pods-OngkeerMVC-OngkeerMVCUITests.release.xcconfig */,
+				17190FE015B75C49569D68EA /* Pods-OngkeerMVCTests.debug.xcconfig */,
+				7D6E654D07DEE760D81610C1 /* Pods-OngkeerMVCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CB98C9235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVC" */;
 			buildPhases = (
+				1FDE2479EFA177025747D6C8 /* [CP] Check Pods Manifest.lock */,
 				04CB9898235AC67E0085875A /* Sources */,
 				04CB9899235AC67E0085875A /* Frameworks */,
 				04CB989A235AC67E0085875A /* Resources */,
+				E8474926572CFE6606831FF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CB98CC235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVCTests" */;
 			buildPhases = (
+				12E19BBC0DC54744C0ACA203 /* [CP] Check Pods Manifest.lock */,
 				04CB98B1235AC6800085875A /* Sources */,
 				04CB98B2235AC6800085875A /* Frameworks */,
 				04CB98B3235AC6800085875A /* Resources */,
@@ -173,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CB98CF235AC6800085875A /* Build configuration list for PBXNativeTarget "OngkeerMVCUITests" */;
 			buildPhases = (
+				8C01F01132BB9D6A9597AA98 /* [CP] Check Pods Manifest.lock */,
 				04CB98BC235AC6800085875A /* Sources */,
 				04CB98BD235AC6800085875A /* Frameworks */,
 				04CB98BE235AC6800085875A /* Resources */,
+				C09A8F2FC6B887DF751DE49F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,7 +311,6 @@
 			files = (
 				04CB98AF235AC6800085875A /* LaunchScreen.storyboard in Resources */,
 				04CB98AC235AC6800085875A /* Assets.xcassets in Resources */,
-				04CB98A7235AC67E0085875A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +330,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12E19BBC0DC54744C0ACA203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OngkeerMVCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FDE2479EFA177025747D6C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OngkeerMVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C01F01132BB9D6A9597AA98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OngkeerMVC-OngkeerMVCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09A8F2FC6B887DF751DE49F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OngkeerMVC-OngkeerMVCUITests/Pods-OngkeerMVC-OngkeerMVCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OngkeerMVC-OngkeerMVCUITests/Pods-OngkeerMVC-OngkeerMVCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OngkeerMVC-OngkeerMVCUITests/Pods-OngkeerMVC-OngkeerMVCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8474926572CFE6606831FF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OngkeerMVC/Pods-OngkeerMVC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OngkeerMVC/Pods-OngkeerMVC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OngkeerMVC/Pods-OngkeerMVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04CB9898235AC67E0085875A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04CB98AA235AC67E0085875A /* OngkeerMVC.xcdatamodeld in Sources */,
-				04CB98A4235AC67E0085875A /* ViewController.swift in Sources */,
+				04CB98D7235AC7A80085875A /* DataManager.swift in Sources */,
+				04CB98A4235AC67E0085875A /* SearchProvinceVC.swift in Sources */,
+				04CB98DA235AFBAE0085875A /* HomePageViewController.swift in Sources */,
+				04CB98E2235B51BB0085875A /* ProtocolClass.swift in Sources */,
 				04CB98A0235AC67E0085875A /* AppDelegate.swift in Sources */,
-				04CB98A2235AC67E0085875A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +479,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04CB98A5235AC67E0085875A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04CB98A6235AC67E0085875A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04CB98AD235AC6800085875A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +606,7 @@
 		};
 		04CB98CA235AC6800085875A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A94247E83D9DAE4544BA92F /* Pods-OngkeerMVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,12 +619,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04CB98CB235AC6800085875A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC11A43FEDD3306E50E376B /* Pods-OngkeerMVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,12 +638,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nandamochammad.OngkeerMVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		04CB98CD235AC6800085875A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17190FE015B75C49569D68EA /* Pods-OngkeerMVCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +667,7 @@
 		};
 		04CB98CE235AC6800085875A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6E654D07DEE760D81610C1 /* Pods-OngkeerMVCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +690,7 @@
 		};
 		04CB98D0235AC6800085875A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B04BCAA3A8F8378CF8FC3D /* Pods-OngkeerMVC-OngkeerMVCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +711,7 @@
 		};
 		04CB98D1235AC6800085875A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137C455ED5C8057B1E181DE5 /* Pods-OngkeerMVC-OngkeerMVCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
